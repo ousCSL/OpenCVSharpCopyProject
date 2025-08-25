@@ -13,11 +13,20 @@ namespace OpenCVSharpSample
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Form1 クラスの新しいインスタンスを初期化します。
+        /// </summary>
         public Form1()
         {
+            // デザイナで定義されたコンポーネントを初期化します。
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 「基本」ボタンがクリックされたときのイベントを処理します。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void B_sample1_Click(object sender, EventArgs e)
         {
             // 画像の読み込み
@@ -28,6 +37,11 @@ namespace OpenCVSharpSample
             }
         }
 
+        /// <summary>
+        /// 「グレースケール」ボタンがクリックされたときのイベントを処理します。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void B_grayscale_Click(object sender, EventArgs e)
         {
             // 画像の読み込み
@@ -39,6 +53,11 @@ namespace OpenCVSharpSample
             }
         }
 
+        /// <summary>
+        /// 「テンプレートマッチ１」ボタンがクリックされたときのイベントを処理します。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void B_template1_Click(object sender, EventArgs e)
         {
             // 検索対象の画像とテンプレート画像
@@ -78,6 +97,11 @@ namespace OpenCVSharpSample
 
         }
 
+        /// <summary>
+        /// 「テンプレートマッチ2」ボタンがクリックされたときのイベントを処理します。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void B_template2_Click(object sender, EventArgs e)
         {
 
@@ -124,6 +148,11 @@ namespace OpenCVSharpSample
 
         }
 
+        /// <summary>
+        /// 「顔認識」ボタンがクリックされたときのイベントを処理します。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void B_face_Click(object sender, EventArgs e)
         {
 
